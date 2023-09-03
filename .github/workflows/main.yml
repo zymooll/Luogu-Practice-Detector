@@ -24,8 +24,8 @@ jobs:
       run: 'python ./forserver.py'
     - name: 'Setup git and Commit'
       run: |
-        git config --global user.email zymooll@qq.com
-        git config --global user.name zymooll
+        git config --global user.email xxx@xx.com
+        git config --global user.name xxx
         git add .
         git commit -m "[Actions]Update" -a
     - name: 'Push changes'
