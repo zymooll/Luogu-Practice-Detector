@@ -14,7 +14,7 @@ This article is writing by Chinese.
 
 本项目自带 Github Actions 部署，使用者只需要将本项目 Fork 下来后，在 设置-秘密与变量-Actions的秘密与变量 中填写自己账号的 Github Token 即可，注意变量名应设为 `TOKEN_FOR_GITHUB`，另外该 Token 应允许 Actions 使用。
 
-另请注意 `.github/workflow/main.yml` 中 `git config --global user.email xxx@xx.com git config --global user.name xxx` 中的 `xxx` 字段替换为自己的昵称和邮箱。
+另请注意 `.github/workflow/main.yml` 中 `git config --global user.email xxx@xx.com git config --global user.name xxx` 中的 `xxx` 字段替换为自己的昵称和邮箱，另外记得去掉注释。
 
 不过出于隐私考虑，作者声明：当对于本项目修改只有 `forserver.py` 中的 `username` 和 `useruid` 数组时，在 Star 本项目的前提下，作者（zymooll）自动放弃 GPL 许可赋予的分发项目开源及相同方式许可的权利，但同时剥夺此再分发项目的再分发权限，这意味着在仅供使用的情况下，只需要 Star 本项目即可闭源使用 Actions 功能。
 
